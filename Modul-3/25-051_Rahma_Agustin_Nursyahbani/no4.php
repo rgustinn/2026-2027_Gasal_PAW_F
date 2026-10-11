@@ -18,7 +18,7 @@ foreach ($height as $nama => $tinggi) {
 echo "<br>";
 
 // 4.2 
-$weight = array("Andy"=>"170","Barry"=>"65","Charlie"=>"175");
+$weight = array("Andy"=>"70","Barry"=>"65","Charlie"=>"75");
 
 echo "weight = ";
 print_r($weight);
