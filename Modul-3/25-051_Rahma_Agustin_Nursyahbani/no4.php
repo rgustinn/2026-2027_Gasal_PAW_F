@@ -12,19 +12,19 @@ echo "height = ";
 print_r($height);
 echo "<br>";
 
-foreach ($height as $name => $tall) {
-    echo $name . " is " . $tall . " cm tall.<br>";
+foreach ($height as $nama => $tinggi) {
+    echo $nama . " is " . $tinggi . " cm tall.<br>";
 }
 echo "<br>";
 
 // 4.2 
-$weight = array("Andy"=>"176","Barry"=>"165","Charlie"=>"170");
+$weight = array("Andy"=>"170","Barry"=>"65","Charlie"=>"175");
 
 echo "weight = ";
 print_r($weight);
 echo "<br>";
 
-foreach ($weight as $name => $tall) {
-    echo $name . " is " . $tall . "<br>";
+foreach ($weight as $nama => $berat) {
+    echo $nama . " is " . $berat . " kg." . "<br>";
 }
 ?>
